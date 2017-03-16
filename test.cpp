@@ -365,6 +365,7 @@ bool checkerboardMimic(vector<Point2f> &pointbuf,cv::KalmanFilter &KF,string &re
 	cout<<" Kalman sonrası"<<endl;
     stringstream wrt2;
 	wrt2 << translation_estimated.at<double>(0,0) << " " << translation_estimated.at<double>(1,0) << " " << translation_estimated.at<double>(2,0) << " " << 			rotation_estimated.at<double>(0,0) << " "<< rotation_estimated.at<double>(1,0) << " " <<rotation_estimated.at<double>(2,0)<<" "<<velocity.at<double>(0,0) << " " << velocity.at<double>(1,0) << " " << velocity.at<double>(2,0)<<" "<<angVelocity.at<double>(0,0) << " " << angVelocity.at<double>(1,0) << " " << angVelocity.at<double>(2,0);
+	wrt2<<wrt2<<position[0]<<" "<<position[1]<<" "<<position[2]<<" "<<orientation[0]<<" "<<orientation[1]<<" "<<orientation[2];
     resultText=wrt2.str();
 	cout<<"************************************"<<endl;
 	cout<<"position Kalman"<<endl;
