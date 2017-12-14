@@ -1,0 +1,4 @@
+/home/furkan/Desktop/Alan Algorithm/CMakeFiles/edit_cache.dir
+/home/furkan/Desktop/Alan Algorithm/CMakeFiles/pose.dir
+/home/furkan/Desktop/Alan Algorithm/CMakeFiles/rebuild_cache.dir
+/home/furkan/Desktop/Alan Algorithm/CMakeFiles/arduino-serial-lib.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,libarduino-serial-lib.so -o libarduino-serial-lib.so CMakeFiles/arduino-serial-lib.dir/arduino-serial-lib.c.o 

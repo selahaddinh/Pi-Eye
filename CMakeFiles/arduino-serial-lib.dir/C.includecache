@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/furkan/Desktop/Alan Algorithm/arduino-serial-lib.c
+arduino-serial-lib.h
+/home/furkan/Desktop/Alan Algorithm/arduino-serial-lib.h
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+errno.h
+-
+termios.h
+-
+string.h
+-
+sys/ioctl.h
+-
+
+/home/furkan/Desktop/Alan Algorithm/arduino-serial-lib.h
+stdint.h
+-
+
